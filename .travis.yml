@@ -1,15 +1,19 @@
 language: ruby
 rvm:
-- 2.0.0
-- 1.9.3
-- jruby-19mode
-- rbx-2
+- 2.1.2
 test:
   adapter: postgresql
   database: travis_ci_test
   username: postgres
 addons:
-  postgresql: "9.3"
+  postgresql: '9.3'
 before_script:
-  - psql -c 'create database travis_ci_test;' -U postgres
-  - cp config/database.yml.travis config/database.yml
+- psql -c 'create database travis_ci_test;' -U postgres
+- cp config/database.yml.travis config/database.yml
+deploy:
+  provider: heroku
+  api_key:
+    secure: Aph84vda3xmUez4kL9TdSh3wTs3qlNjjllfg6StIqBcGSnPJSLKuWbaSZwnpAplMO4TNOwMAojjkcpPAmkabyR+HHv34p5+JPkmHGIYDxZ1Fx3Oh0OfpgbyQ5mJZ3FeAzvdKJlOWRkIMC9W4jfN9R0xcvfnpwWrap/JvxlKFTHE=
+  app: whispering-harbor-7929
+  on:
+    repo: perry3/sekaidokei
