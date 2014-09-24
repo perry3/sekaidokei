@@ -1,0 +1,2 @@
+module SekaidokeiHelper
+end

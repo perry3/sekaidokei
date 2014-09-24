@@ -1,0 +1,2 @@
+class SekaidokeiController < ApplicationController
+end
