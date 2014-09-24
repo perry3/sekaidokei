@@ -16,7 +16,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
   gem 'rails_12factor', group: :production
 
-  ruby  '2.1.2'
+  ruby '2.1.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -42,3 +42,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'rails_12factor', group: :production
+ruby '2.1.2'
