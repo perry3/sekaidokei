@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
 
 #<<<<<<< HEAD
-    root 'welcome#index'
+    root 'sekaidokei#index'
 #>>>>>>> 4b13d831057f73a1d9947eabd8d626cab647902f
 
   # Example of regular route:

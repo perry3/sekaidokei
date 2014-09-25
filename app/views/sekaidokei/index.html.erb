@@ -1,3 +1,10 @@
-<h2>Hello World</h2> <p>
-The time is now: <%= Time.now %>
-</p>
+<h2>世界の時刻</h2>
+<p>世界標準時間(UTC): <%= Time.now %></p>
+<p>日本時間(JST): <%= Time.now + 9*60*60 %></p>
+<p>フィンランド: <%= Time.now + 2*60*60 %></p>
+<p>ウズベキスタン: <%= Time.now + 5*60*60 %></p>
+<p>カタール: <%= Time.now + 3*60*60 %></p>
+<p>上海: <%= Time.now + 8*60*60 %></p>
+<p>ニューヨーク: <%= Time.now - 5*60*60 %></p>
+<p>ロサンゼルス: <%= Time.now - 8*60*60 %></p>
+<p>メキシコ: <%= Time.now - 6*60*60 %></p>
