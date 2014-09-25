@@ -16,4 +16,3 @@ deploy:
     secure: Aph84vda3xmUez4kL9TdSh3wTs3qlNjjllfg6StIqBcGSnPJSLKuWbaSZwnpAplMO4TNOwMAojjkcpPAmkabyR+HHv34p5+JPkmHGIYDxZ1Fx3Oh0OfpgbyQ5mJZ3FeAzvdKJlOWRkIMC9W4jfN9R0xcvfnpwWrap/JvxlKFTHE=
   app: whispering-harbor-7929
   on:
-    repo: perry3/sekaidokei
